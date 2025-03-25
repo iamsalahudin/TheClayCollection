@@ -60,6 +60,9 @@ const Page = () => {
             src="/vecteezy_potter-removing-excess-clay-from-a-clay-teapot_1909031.mp4"
             loop
             autoPlay
+            muted
+            playsInline
+            preload="auto"
             className="h-full"
           ></video>
           <div className="absolute lg:bottom-auto bottom-0 font-bold text-6xl text-white text-right lg:text-center">

@@ -105,6 +105,7 @@ const Page = () => {
                 layout="responsive"
                 width={300}
                 height={200}
+                loading="lazy"
               />
               <Link
                 href="/products"
@@ -121,6 +122,7 @@ const Page = () => {
                 layout="responsive"
                 width={300}
                 height={200}
+                loading="lazy"
               />
               <Link
                 href="/products"
@@ -137,6 +139,7 @@ const Page = () => {
                 layout="responsive"
                 width={300}
                 height={200}
+                loading="lazy"
               />
               <Link
                 href="/products"
@@ -153,6 +156,7 @@ const Page = () => {
                 layout="responsive"
                 width={300}
                 height={200}
+                loading="lazy"
               />
               <Link
                 href="/products"
