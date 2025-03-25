@@ -13,7 +13,7 @@ const Page = () => {
   return (
     <>
       <div className="px-5 lg:px-20 py-5">
-        <susPart/>
+        <SusPart/>
         <HeadingBar title="For you" heading="People also search for" />
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3 pt-10">
           {Products.map((product, index) => (
@@ -25,7 +25,7 @@ const Page = () => {
   );
 };
 
-const susPart = () => {
+const SusPart = () => {
   const searchParams = useSearchParams();
   const c = searchParams.get("id");
   const [results, setResults] = useState([]);

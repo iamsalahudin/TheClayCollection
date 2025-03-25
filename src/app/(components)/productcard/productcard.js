@@ -40,6 +40,7 @@ const ProductCard = ({ product }) => {
           alt={product.Name}
           width={300}
           height={300}
+          loading='lazy'
           className="object-cover w-full h-48"
         />
       </div>

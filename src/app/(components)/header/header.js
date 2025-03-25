@@ -36,6 +36,7 @@ export default function Header() {
         <Link className="flex items-center space-x-4" href="/">
           <Image
             src={Logo}
+            loading='lazy'
             alt="Logo"
             className="w-40 lg:w-32 lg:h-24"
           />

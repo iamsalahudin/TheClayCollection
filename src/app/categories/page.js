@@ -1,5 +1,5 @@
 "use client"; // Required for client-side components
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import React from "react";
 import Productcard from "../(components)/productcard/productcard";
@@ -10,12 +10,12 @@ const Page = () => {
   return (
     <div className="flex px-0 lg:px-20 min-h-[90vh]">
       <CategoriesNav />
-      <susPart/>
+      <SusPart />
     </div>
   );
 };
 
-const susPart = () => {
+const SusPart = () => {
   const searchParams = useSearchParams();
   const c = searchParams.get("category");
   const results = useFilterProducts(c);
