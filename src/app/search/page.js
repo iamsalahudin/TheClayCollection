@@ -17,14 +17,14 @@ const Page = () => {
             </p>
           }
         >
-          <susPart/>
+          <SusPart/>
         </Suspense>
       </div>
     </>
   );
 };
 
-const susPart = () => {
+const SusPart = () => {
   const searchParams = useSearchParams();
   const query = searchParams.get("q");
   const results = useFilterProducts(query);
